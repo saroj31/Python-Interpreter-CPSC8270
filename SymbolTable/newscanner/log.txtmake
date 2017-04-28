@@ -1,0 +1,27 @@
+bison -o parse.tab.cpp -vtd   parse.y
+parse.y:41.7-11: error: %type redeclaration for or_test
+ %type <ast> test star_COMMA_test COMMA testlist opt_arglist arglist opt_test arith_expr term factor power atom opt_yield_test pick_yield_expr_testlist 
+       ^^^^^
+parse.y:41.7-11:     previous declaration
+ %type <ast> test star_COMMA_test COMMA testlist opt_arglist arglist opt_test arith_expr term factor power atom opt_yield_test pick_yield_expr_testlist 
+       ^^^^^
+parse.y:41.7-11: error: %type redeclaration for test
+ %type <ast> test star_COMMA_test COMMA testlist opt_arglist arglist opt_test arith_expr term factor power atom opt_yield_test pick_yield_expr_testlist 
+       ^^^^^
+parse.y:41.7-11:     previous declaration
+ %type <ast> test star_COMMA_test COMMA testlist opt_arglist arglist opt_test arith_expr term factor power atom opt_yield_test pick_yield_expr_testlist 
+       ^^^^^
+parse.y:41.7-11: error: %type redeclaration for BACKQUOTE
+ %type <ast> test star_COMMA_test COMMA testlist opt_arglist arglist opt_test arith_expr term factor power atom opt_yield_test pick_yield_expr_testlist 
+       ^^^^^
+parse.y:41.7-11:     previous declaration
+ %type <ast> test star_COMMA_test COMMA testlist opt_arglist arglist opt_test arith_expr term factor power atom opt_yield_test pick_yield_expr_testlist 
+       ^^^^^
+parse.y:41.7-11: error: %type redeclaration for test
+ %type <ast> test star_COMMA_test COMMA testlist opt_arglist arglist opt_test arith_expr term factor power atom opt_yield_test pick_yield_expr_testlist 
+       ^^^^^
+parse.y:41.7-11:     previous declaration
+ %type <ast> test star_COMMA_test COMMA testlist opt_arglist arglist opt_test arith_expr term factor power atom opt_yield_test pick_yield_expr_testlist 
+       ^^^^^
+Makefile:23: recipe for target 'parse.tab.cpp' failed
+make: *** [parse.tab.cpp] Error 1

@@ -1,0 +1,92 @@
+
+x=5
+x/=0
+print x
+
+x=2
+print x**(0.5)
+
+x=2
+print x**(-0.5)
+
+print 3+4-5+(2.2)-4.1
+
+x=3
+print x+2
+print x-1.0
+print x%2
+print x%-2
+
+x=5.1
+y=4.2
+print x+y
+print x*y
+print x/y
+
+
+print 5.6//2.9
+print 2**(-1/2)
+print 2**(-1/2-1/2)
+print (-1/2+(-1/2))
+print 2**(-1/2+(-1/2))
+
+print (2-3)
+print (2+3**0.2)
+print (1000*8)+(100*2)+(10*7)
+print 1000*2**-3+20**2/2+70%71
+
+print 3.14%0.7
+
+x=2.1
+x+=3
+print x
+
+x=5.1
+x-=3
+print x
+
+x=5
+x*=3.0
+print x
+x=5
+x*=3
+print x
+
+x=5
+x/=3.0
+print x
+print 4/5
+print 5/3
+print 5/1
+print 4/2/1
+print 8270000/10/(5*2)/((5*2**2)/2)
+print 5//2
+print 5//-2
+print -5//2
+print 5/0
+
+print (2-3-4)
+print (2+3**2)
+print (1000*8)+(100*2)+(10*7)
+print 1000*2**3+20**2/2+70%71
+print 2+3*8+2*4
+print 2*(-9)
+print -2*-2
+print (-2)*(-2*+4)
+
+testcase: 10divequal1.py passed
+testcase: 12exp1.py passed
+testcase: 12exp2.py passed
+testcase: 1add.py passed
+testcase: 2auassign.py passed
+testcase: 2ids.py passed
+testcase: 3class.py passed
+testcase: 4mix.py passed
+testcase: 5mod.py passed
+testcase: 6plusequal.py passed
+testcase: 7minusequal.py passed
+testcase: 8multequal.py passed
+testcase: 9divequal.py passed
+testcase: oldAllDiv.py passed
+testcase: oldmix.py passed
+testcase: oldmult.py passed
