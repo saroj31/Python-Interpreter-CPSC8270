@@ -1,0 +1,18 @@
+Name: Saroj Kumar Dash
+Clemson Email Address: sdash@g.clemson.edu
+Course number: 8270
+
+Project no: 3
+Project due date: 10/8/2016
+
+Project description: Evaluation and Visualization of an Expression Tree
+
+Difficulties: 1. The using of labels to show the Graphviz was difficult part.
+			2. Still could not test the python scripts
+			3. I have used teh objects of Ast to make the Nodes and Numbers unique
+			
+
+Extra:   All tokens and terminals are given different kind of shapes.
+
+	
+
