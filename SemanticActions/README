@@ -1,0 +1,17 @@
+Name: Saroj Kumar Dash
+Clemson Email Address: sdash@g.clemson.edu
+Course Number: 8270
+Course Name: Language Translation
+
+Project no: 4
+Project description: Introduction to an Interpreter for Python 2.7.2
+
+Difficulties: 	1. Handing of Parentheses was difficult to find as we had many instances like that of functions
+				2. Handled the integer division
+				3. To figure out the way to make the testcases and thus understanding the python code.
+						
+
+Extra:   Handled the zero division error too even through the test cases.you will be able to see it in the test cases of AllDiv.py file.
+
+	
+
